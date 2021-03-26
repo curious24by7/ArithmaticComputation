@@ -2,14 +2,12 @@
 read a b c
 echo $a $b $c
 
-cal=$(($a+$b*$c))
-echo $cal
+cal[1]=$(($a+$b*$c))
 
-cal2=$(($a*$b+$c))
-echo $cal2
+cal[2]=$(($a*$b+$c))
 
-cal3=$(($c+$a/$b))
-echo $cal3
+cal[3]=$(($c+$a/$b))
 
-cal4=$(($a%$b+$c))
-echo $cal4
+cal[4]=$(($a%$b+$c))
+
+echo "All computation's results are:" ${cal[@]}
