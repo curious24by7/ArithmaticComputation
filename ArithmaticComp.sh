@@ -10,4 +10,5 @@ cal[3]=$(($c+$a/$b))
 
 cal[4]=$(($a%$b+$c))
 
-echo "All computation's results are:" ${cal[@]}
+echo Answer=${cal[@]}
+echo ArrayAns=${cal[@]}
