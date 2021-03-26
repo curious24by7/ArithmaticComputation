@@ -7,3 +7,7 @@ echo $cal
 
 cal2=$(($a*$b+$c))
 echo $cal2
+
+cal3=$(($c+$a/$b))
+echo $cal3
+
