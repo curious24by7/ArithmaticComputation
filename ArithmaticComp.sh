@@ -12,5 +12,5 @@ cal[4]=$(($a%$b+$c))
 
 echo Answer=${cal[@]}
 echo ArrayAns=${cal[@]}
-echo Descending order is $(printf "%s\n" ${cal[@]}) | sort -nr
-
+echo Descending order is $(printf "%s\n" ${cal[@]} | sort -nr)
+echo Ascending order is $(printf "%s\n" ${cal[@]} | sort -n)
